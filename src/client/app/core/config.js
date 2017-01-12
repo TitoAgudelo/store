@@ -14,7 +14,7 @@
 
   var config = {
     appErrorPrefix: '[rappi Error] ',
-    appTitle: 'rappi'
+    appTitle: 'Rappi'
   };
 
   core.value('config', config);
