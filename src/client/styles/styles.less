@@ -13,7 +13,7 @@
     -webkit-text-shadow: none !important;
     -ms-text-shadow: none !important;
     text-shadow: none !important;*/
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     /*font-weight: 400;*/
 }
@@ -846,6 +846,30 @@ form {
 
 /* Widget */
 
+.widget-products {
+  .wrapper {
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 6px;
+    border: 1px solid #e1e1e1;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .title-wrapper p {
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .description-wrapper p {
+      font-size: 12px;
+    }
+  }
+}
+
 .widget {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -886,8 +910,7 @@ form {
     }
 
     .widget .widget-head {
-        background-color: #f5f5f5;
-        border: 1px solid #ddd;
+        background-color: #44d481;
         color: #777;
         font-size: 18px;
         padding: 12px 15px;
@@ -928,6 +951,12 @@ form {
     /* Widget colors */
 
     .widget.wred .widget-head {
+        background-color: @color_important;
+        border: 1px solid @color_important;
+        color: #fff;
+    }
+
+    .widget.green .widget-head {
         background-color: @color_important;
         border: 1px solid @color_important;
         color: #fff;

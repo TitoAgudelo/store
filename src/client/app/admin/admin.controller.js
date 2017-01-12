@@ -5,16 +5,35 @@
     .module('app.admin')
     .controller('AdminController', AdminController);
 
-  AdminController.$inject = ['logger'];
+  AdminController.$inject = ['$q', 'dataservice', 'logger'];
   /* @ngInject */
-  function AdminController(logger) {
+  function AdminController($q, dataservice, logger) {
     var vm = this;
     vm.title = 'Products';
+    vm.categories = [];
+    vm.products = [];
 
     activate();
 
     function activate() {
-      logger.info('Activated Products View');
+      var promises = [getCategories(), getProducts()];
+      return $q.all(promises).then(function() {
+        logger.info('Activated Products View');
+      });
+    }
+
+    function getCategories() {
+      return dataservice.getCategories().then(function(data) {
+        vm.categories = data;
+        return vm.categories;
+      });
+    }
+
+    function getProducts() {
+      return dataservice.getProducts().then(function(data) {
+        vm.products = data;
+        return vm.products;
+      });
     }
   }
 })();

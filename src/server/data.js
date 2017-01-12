@@ -21,19 +21,23 @@ function getCategories() {
   return [
     {
       categori_id: 1,
-      name: 'drinks'
+      name: 'drinks',
+      icon: '<i class="fa fa-glass" aria-hidden="true"></i>'
     },
     {
       categori_id: 2,
-      name: 'lunch'
+      name: 'lunch',
+      icon: '<i class="fa fa-cutlery" aria-hidden="true"></i>'
     },
     {
       categori_id: 3,
-      name: 'food'
+      name: 'food',
+      icon: '<i class="fa fa-ship" aria-hidden="true"></i>'
     },
     {
       categori_id: 4,
-      name: 'sea'
+      name: 'sea',
+      icon: '<i class="fa fa-tint" aria-hidden="true"></i>'
     }
   ]
 }
