@@ -16,14 +16,14 @@
       {
         state: 'dashboard',
         config: {
-          url: '/',
+          url: '/cart',
           templateUrl: 'app/dashboard/dashboard.html',
           controller: 'DashboardController',
           controllerAs: 'vm',
-          title: 'dashboard',
+          title: 'Cart',
           settings: {
             nav: 1,
-            content: '<i class="fa fa-dashboard"></i> Dashboard'
+            content: '<i class="fa fa-cart-arrow-down"></i> Cart'
           }
         }
       }

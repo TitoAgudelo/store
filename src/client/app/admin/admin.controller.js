@@ -5,9 +5,9 @@
     .module('app.admin')
     .controller('AdminController', AdminController);
 
-  AdminController.$inject = ['$q', 'dataservice', 'logger'];
+  AdminController.$inject = ['$q', 'dataservice', 'logger', '$rootScope'];
   /* @ngInject */
-  function AdminController($q, dataservice, logger) {
+  function AdminController($q, dataservice, logger, $rootScope) {
     var vm = this;
     vm.title = 'Products';
     vm.categories = [];
@@ -60,6 +60,11 @@
         getCategory(vm.products);
         return vm.products;
       });
+    }
+
+    vm.addCart = function(product) {
+      $rootScope.productsCart = [];
+      $rootScope.productsCart.push(product);
     }
   }
 })();

@@ -23,7 +23,7 @@
           title: 'Products',
           settings: {
             nav: 2,
-            content: '<i class="fa fa-lock"></i> Products'
+            content: '<i class="fa fa-product-hunt"></i> Products'
           }
         }
       }

@@ -23,7 +23,7 @@ describe('DashboardController', function() {
 
     describe('after activate', function() {
       it('should have title of Dashboard', function() {
-        expect(controller.title).to.equal('Dashboard');
+        expect(controller.title).to.equal('Cart');
       });
 
       it('should have logged "Activated"', function() {
@@ -32,14 +32,6 @@ describe('DashboardController', function() {
 
       it('should have news', function() {
         expect(controller.news).to.not.be.empty;
-      });
-
-      it('should have at least 1 person', function() {
-        expect(controller.people).to.have.length.above(0);
-      });
-
-      it('should have people count of 5', function() {
-        expect(controller.people).to.have.length(7);
       });
     });
   });

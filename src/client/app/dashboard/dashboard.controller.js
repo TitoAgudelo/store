@@ -5,22 +5,26 @@
     .module('app.dashboard')
     .controller('DashboardController', DashboardController);
 
-  DashboardController.$inject = ['$q', 'dataservice', 'logger'];
+  DashboardController.$inject = ['$q', 'dataservice', 'logger', '$rootScope'];
   /* @ngInject */
-  function DashboardController($q, dataservice, logger) {
+  function DashboardController($q, dataservice, logger, $rootScope) {
     var vm = this;
-    vm.news = {
-      title: 'rappi',
-      description: 'Hot Towel Angular is a SPA template for Angular developers.'
-    };
     vm.messageCount = 0;
-    vm.people = [];
-    vm.title = 'Dashboard';
+    vm.title = 'Cart';
+    try {
+      if($rootScope.productsCart.length > 0) {
+        vm.title = 'Items in cart.';
+      } else {
+        vm.title = 'No items in cart.';
+      }
+    } catch(e) {
+
+    }
 
     activate();
 
     function activate() {
-      var promises = [getMessageCount(), getPeople()];
+      var promises = [getMessageCount()];
       return $q.all(promises).then(function() {
         logger.info('Activated Dashboard View');
       });
@@ -30,13 +34,6 @@
       return dataservice.getMessageCount().then(function(data) {
         vm.messageCount = data;
         return vm.messageCount;
-      });
-    }
-
-    function getPeople() {
-      return dataservice.getPeople().then(function(data) {
-        vm.people = data;
-        return vm.people;
       });
     }
   }
