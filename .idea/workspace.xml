@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333888fc-5408-4e3b-9cd3-e23a047d71e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.html" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.route.js" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.spec.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/styles/styles.less" afterPath="$PROJECT_DIR$/src/client/styles/styles.less" />
     </list>
     <ignored path="store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +26,25 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -63,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -115,28 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.route.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -177,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/client/app/admin/admin.route.js" />
         <option value="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" />
-        <option value="$PROJECT_DIR$/src/client/app/admin/admin.html" />
         <option value="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
+        <option value="$PROJECT_DIR$/src/client/app/admin/admin.html" />
       </list>
     </option>
   </component>
@@ -893,14 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1079,14 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1099,6 +1070,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="33" />
           <folding />
         </state>
       </provider>
