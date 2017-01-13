@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="333888fc-5408-4e3b-9cd3-e23a047d71e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.html" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/core/dataservice.js" afterPath="$PROJECT_DIR$/src/client/app/core/dataservice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/styles/styles.less" afterPath="$PROJECT_DIR$/src/client/styles/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/data.js" afterPath="$PROJECT_DIR$/src/server/data.js" />
     </list>
     <ignored path="store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="303">
               <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
               <folding />
             </state>
@@ -57,8 +53,8 @@
       <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="867" column="22" selection-start-line="867" selection-start-column="22" selection-end-line="867" selection-end-column="22" />
+            <state relative-caret-position="313">
+              <caret line="872" column="6" selection-start-line="872" selection-start-column="6" selection-end-line="872" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -74,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -114,9 +110,9 @@
         <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/.tmp/styles.css" />
         <option value="$PROJECT_DIR$/src/client/index.html" />
+        <option value="$PROJECT_DIR$/src/server/data.js" />
         <option value="$PROJECT_DIR$/src/client/app/admin/admin.html" />
         <option value="$PROJECT_DIR$/src/client/styles/styles.less" />
-        <option value="$PROJECT_DIR$/src/server/data.js" />
       </list>
     </option>
   </component>
@@ -865,26 +861,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="867" column="22" selection-start-line="867" selection-start-column="22" selection-end-line="867" selection-end-column="22" />
+        <state relative-caret-position="313">
+          <caret line="872" column="6" selection-start-line="872" selection-start-column="6" selection-end-line="872" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="42" />
           <folding />
         </state>
       </provider>

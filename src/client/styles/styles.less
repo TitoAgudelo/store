@@ -852,6 +852,7 @@ form {
     box-sizing: border-box;
     padding: 6px;
     border: 1px solid #e1e1e1;
+    background-color: white;
 
     img {
       width: 100%;
@@ -867,12 +868,41 @@ form {
     .description-wrapper p {
       font-size: 12px;
     }
+
+    .price-wrapper p {
+      font-weight: 600;
+    }
+
+    .category-wrapper {
+      background-color: #333;
+    }
+
+    .available-wrapper {
+      span {
+        display: inline-block;
+        padding: 0 7px;
+        border-radius: 5px;
+        margin: 7px 0;
+        color: white;
+      }
+
+      .label-green {
+        background-color: #44d481;
+      }
+
+      .label-red {
+        background-color: #fd6250;
+      }
+    }
+
+    .action-wrapper {
+      background-color: #f5f5f5;
+    }
   }
 }
 
 .widget {
     margin-top: 10px;
-    margin-bottom: 20px;
     background: #fff;
 }
 
@@ -956,9 +986,8 @@ form {
         color: #fff;
     }
 
-    .widget.green .widget-head {
-        background-color: @color_important;
-        border: 1px solid @color_important;
+    .widget.red .widget-head {
+        background: url(../images/top-vector-bg@2x.png) no-repeat #fd6250;
         color: #fff;
     }
 
@@ -990,6 +1019,14 @@ form {
         background-color: @color_violet;
         border: 1px solid @color_violet;
         color: #fff;
+    }
+
+    .widget-container {
+        background-color: #f5f5f5;
+        display: flex;
+        padding: 1em;
+        margin: 0 -15px;
+        text-align: center;
     }
 
         .widget.wred .widget-head .widget-icons a,
