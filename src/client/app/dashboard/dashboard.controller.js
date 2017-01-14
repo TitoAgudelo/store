@@ -11,14 +11,14 @@
     var vm = this;
     vm.messageCount = 0;
     vm.title = 'Cart';
-    try {
+    vm.isDefi = $rootScope.productsCart;
+    if(vm.isDefi) {
       if($rootScope.productsCart.length > 0) {
         vm.title = 'Items in cart.';
+        vm.products = $rootScope.productsCart;
       } else {
         vm.title = 'No items in cart.';
       }
-    } catch(e) {
-
     }
 
     activate();

@@ -5,8 +5,29 @@
         <div class="widget red">
           <div ht-widget-header title="{{vm.title}}"></div>
         </div>
-        <div class="col-md-6">
+        <div class="cart-content">
+          <div class="cart-img">
+            <div class="cart-title">
+              <h4>Product List</h4>
+            </div>
+            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
+              <ul class="cart-table">
+                <li>image</li>
+                <li>Name</li>
+                <li>description</li>
+                <li>price</li>
+              </ul>
+              <div class="product" ng-repeat="prod in vm.products">
+                <span><img data-ng-src="{{prod.img}}" /></span>
+                <span>{{prod.name}}</span>
+                <span class="description">{{prod.description}}</span>
+                <span>{{prod.price}}</span>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
 
+            </div>
+          </div>
         </div>
       </div>
     </div>

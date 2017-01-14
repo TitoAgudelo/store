@@ -12,6 +12,7 @@
     vm.title = 'Products';
     vm.categories = [];
     vm.products = [];
+    $rootScope.productsCart = [];
 
     activate();
 
@@ -63,8 +64,8 @@
     }
 
     vm.addCart = function(product) {
-      $rootScope.productsCart = [];
       $rootScope.productsCart.push(product);
+      $rootScope.countProducts = $rootScope.productsCart.length;
     }
   }
 })();

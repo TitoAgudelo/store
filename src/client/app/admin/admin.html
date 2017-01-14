@@ -2,7 +2,22 @@
   <section class="matter">
     <div class="container">
       <div class="row">
-        <label>Search: <input ng-model="searchText"></label>
+        <div class="widget-search">
+          <label>Search: <input ng-model="searchText"></label>
+          <i class="fa fa-chevron-down" aria-hidden="true" ng-hide="filter" data-ng-click="filter = true;"></i>
+          <i class="fa fa-chevron-up" aria-hidden="true" ng-show="filter" data-ng-click="filter = false;"></i>
+        </div>
+        <div class="widget-filter" ng-show="filter">
+          <h4 class="filters-title">Filters</h4>
+          <div class="filter-category">
+            <span ng-repeat="category in vm.categories" ng-bind-html="category.icon"></span>
+          </div>
+          <div class="filters">
+            <button class="btn filters-color">Avaiables Products</button>
+            <button class="btn filters-color">Unavailables Products</button>
+            <button class="btn filters-color">best Seller</button>
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="widget red">
@@ -30,7 +45,7 @@
               <div class="category-wrapper">
                 <span data-ng-repeat="pro in product.categoryObject" ng-bind-html="pro.icon" title="{{pro.name}}"></span>
               </div>
-              <div class="action-wrapper">
+              <div class="action-wrapper" ng-if="product.available">
                 <button data-ng-click="vm.addCart(product)">add</button>
               </div>
             </div>

@@ -844,6 +844,89 @@ form {
     margin: 2em;
 }
 
+/* widget Search */
+.widget-search {
+    background-color: #44d481;
+    padding: 1rem;
+
+    label {
+      margin: 0;
+      width: 100%;
+      color: white;
+
+      input {
+        width: 42%;
+        border-radius: 5px !important;
+      }
+    }
+
+    i {
+      position: absolute;
+      left: 50%;
+      background-color: #fd6250;
+      color: white;
+      padding: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+}
+
+/* Widget filters */
+.widget-filter {
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  span {
+    text-align: center;
+  }
+
+  .fa {
+    color: white;
+    padding: 5px;
+    width: 23px;
+    height: 23px;
+    margin: 0 5px;
+    border-radius: 50%;
+
+    &.fa-glass {
+      background-color: #fd6250;
+    }
+
+    &.fa-cutlery {
+      background-color: #996E5C;
+    }
+
+    &.fa-ship {
+      background-color: #44d481;
+    }
+
+    &.fa-tint {
+      background-color: #00A3F9;
+    }
+
+    &.disabled {
+      background-color: #f5f5f5;
+    }
+  }
+
+  .filters-title {
+    padding-left: 1rem;
+  }
+
+  .filter-category {
+    padding: 1rem;
+  }
+
+  .filters {
+    .filters-color {
+      background-color: #44d481;
+      color: white;
+      border-radius: 5px !important;
+    }
+  }
+}
+
 /* Widget */
 
 .widget-products {
@@ -948,6 +1031,54 @@ form {
   }
 }
 
+/* cart */
+.cart-content {
+  background-color: #f5f5f5;
+  display: flex;
+  padding: 2rem 1rem;
+
+  .cart-title {
+    padding: 10px;
+  }
+
+  .cart-table {
+    list-style: none;
+    display: inline-flex;
+
+    li {
+      margin: 0 20px;
+      font-size: 16px;
+    }
+  }
+
+  .product {
+    display: inline-flex;
+    img {
+      width: 110px;
+      height: auto;
+    }
+
+    span {
+      margin: 0 20px;
+
+      &.description {
+        font-size: 10px;
+        width: 100px;
+      }
+    }
+  }
+}
+
+.products-count {
+    position: absolute;
+    right: 0;
+    margin: 12px 60px;
+
+    &.active {
+      color: white;
+    }
+}
+
 .wrapper:hover {
   .action-wrapper {
     button {
@@ -957,7 +1088,7 @@ form {
 }
 
 .widget {
-    margin-top: 10px;
+    margin-top: 20px;
     background: #fff;
 }
 

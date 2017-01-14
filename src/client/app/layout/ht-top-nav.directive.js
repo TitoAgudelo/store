@@ -23,6 +23,8 @@
     /* @ngInject */
     function TopNavController($scope) {
       var vm = this;
+      vm.countProd = 0;
+      vm.countProd = $rootScope.countProducts;
       $scope.isCollapsed = true;
     }
 
