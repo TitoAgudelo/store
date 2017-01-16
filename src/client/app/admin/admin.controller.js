@@ -67,5 +67,19 @@
       $rootScope.productsCart.push(product);
       $rootScope.countProducts = $rootScope.productsCart.length;
     }
+
+    vm.actions = function(condition) {
+       switch(condition) {
+         case 'available':
+           vm.products = vm.filterProducts(condition);
+           break;
+         case 'unavailable':
+
+           break;
+         case 'best':
+
+           break;
+       }
+    }
   }
 })();

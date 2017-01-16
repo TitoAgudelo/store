@@ -5,10 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/admin/admin.html" afterPath="$PROJECT_DIR$/src/client/app/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.directive.js" afterPath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" afterPath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/styles/styles.less" afterPath="$PROJECT_DIR$/src/client/styles/styles.less" />
     </list>
     <ignored path="store.iws" />
@@ -33,18 +29,18 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="18" column="89" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="922" column="0" selection-start-line="922" selection-start-column="0" selection-end-line="922" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/data.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -113,8 +109,8 @@
       <file leaf-file-name="admin.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="618">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -168,11 +164,11 @@
         <option value="$PROJECT_DIR$/src/client/app/admin/admin.route.js" />
         <option value="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js" />
         <option value="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
-        <option value="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
         <option value="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" />
         <option value="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.directive.js" />
-        <option value="$PROJECT_DIR$/src/client/app/admin/admin.html" />
         <option value="$PROJECT_DIR$/src/client/styles/styles.less" />
+        <option value="$PROJECT_DIR$/src/client/app/admin/admin.html" />
+        <option value="$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
       </list>
     </option>
   </component>
@@ -1048,14 +1044,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/layout/shell.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1088,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1112,26 +1092,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/data.js">
+    <entry file="file://$PROJECT_DIR$/src/client/app/layout/shell.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="922" column="0" selection-start-line="922" selection-start-column="0" selection-end-line="922" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -10,12 +10,14 @@
         <div class="widget-filter" ng-show="filter">
           <h4 class="filters-title">Filters</h4>
           <div class="filter-category">
+            <label>Categories:</label>
             <span ng-repeat="category in vm.categories" ng-bind-html="category.icon"></span>
           </div>
           <div class="filters">
-            <button class="btn filters-color">Avaiables Products</button>
-            <button class="btn filters-color">Unavailables Products</button>
-            <button class="btn filters-color">best Seller</button>
+            <label>Actions:</label>
+            <button class="btn filters-color" data-ng-click="vm.actions('available')">Avaiables Products</button>
+            <button class="btn filters-color redd" data-ng-click="vm.actions('unavailable')">Unavailables Products</button>
+            <button class="btn filters-color purple" data-ng-click="vm.actions('best')">best Seller</button>
           </div>
         </div>
       </div>
